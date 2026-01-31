@@ -66,8 +66,8 @@ Run API.ipynb
 Line chart showing hourly temperature trend
 
 Tabular dataset of time vs temperature
+![Sample Output](output.png)
 
-(Add screenshot here later)
 
 📁 Project Structure
 api/
