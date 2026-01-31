@@ -1,12 +1,23 @@
-# Weather Data Analysis Using Public API
+# Weather Data Analysis Using Public API (Python)
 
-## 📌 Objective
-Collect live hourly weather data from a public API and analyze temperature trends using Python.  
-This project demonstrates how to pull data from an API, transform JSON data into a tabular format, and visualize time-series data.
+## 📌 Overview
+This project demonstrates end-to-end data ingestion, transformation, and exploratory analysis using a public weather API.  
+The goal is to showcase practical experience in working with APIs, handling JSON responses, performing data transformations, and building time-series visualizations using Python.
+
+This project is intended as a hands-on demonstration of data analysis workflows commonly used in real-world analytics environments.
 
 ---
 
-## 📊 Data Source
+## 🎯 Objective
+- Retrieve live hourly weather data from a public API  
+- Transform JSON response into structured tabular format  
+- Clean and standardize datetime fields  
+- Perform basic exploratory analysis  
+- Visualize temperature trends over time  
+
+---
+
+## 🌐 Data Source
 Open-Meteo Public Weather API (No API key required)
 
 ---
@@ -20,55 +31,63 @@ Open-Meteo Public Weather API (No API key required)
 
 ---
 
-## 🔄 Project Workflow
-1. Send request to public weather API  
+## 🔄 Workflow
+1. Send HTTP request to public weather API  
 2. Receive response in JSON format  
 3. Extract required fields (time, temperature)  
-4. Convert JSON to Pandas DataFrame  
+4. Convert JSON data to Pandas DataFrame  
 5. Convert time column to datetime format  
-6. Perform basic exploratory analysis  
-7. Create time-series visualization  
-8. Save cleaned dataset to CSV  
+6. Perform exploratory analysis (min, max, average temperature)  
+7. Build time-series visualization  
+8. Export cleaned dataset to CSV  
 
 ---
 
-## 📁 Files in Repository
-- `weather_api_analysis.ipynb` → Python notebook  
+## 📁 Repository Structure
+- `weather_api_analysis.ipynb` → Analysis notebook  
 - `weather_data.csv` → Cleaned dataset  
-- `README.md` → Project documentation  
+- `README.md` → Documentation  
 
 ---
 
-## 📈 Key Analysis
-- Average temperature  
-- Minimum temperature  
-- Maximum temperature  
-- Hourly temperature trend visualization  
+## 📊 Key Analysis Performed
+- Average temperature calculation  
+- Minimum and maximum temperature identification  
+- Hourly temperature trend analysis  
 
 ---
 
-## 📉 Sample Visualization
-Line chart showing temperature changes across time.
+## 📈 Visualization
+Line chart showing hourly temperature variations over time.
 
 ---
 
-## ✅ Key Learnings
-- How to work with public APIs  
-- Parsing JSON responses  
-- Creating Pandas DataFrames  
-- Datetime conversion  
-- Basic data visualization  
+## 🔍 Key Insights
+- Temperature shows continuous fluctuation across hourly intervals  
+- Clear time-based trend observable in temperature movement  
+- Dataset is suitable for further aggregation such as daily averages or multi-day comparisons  
 
 ---
 
-## 🚀 Future Improvements
-- Add humidity, wind speed, and precipitation  
-- Perform daily average calculations  
-- Create dashboard using Power BI or Tableau  
+## ✅ Skills Demonstrated
+- API data ingestion  
+- JSON parsing  
+- Data cleaning & transformation  
+- Time-series handling  
+- Exploratory data analysis  
+- Data visualization  
+
+---
+
+## 🚀 Future Enhancements
+- Add humidity, wind speed, and precipitation fields  
+- Aggregate hourly data into daily metrics  
+- Build interactive dashboard using Power BI or Tableau  
+- Automate data refresh  
 
 ---
 
 ## 📬 Contact
 Haritha  
-LinkedIn:www.linkedin.com/in/haritha-ch-9428a6305
-
+GitHub: <your-github-link>  
+LinkedIn: <your-linkedin-link>
