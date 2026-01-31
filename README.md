@@ -1,93 +1,97 @@
-# Weather Data Analysis Using Public API (Python)
+🌦️ Weather Data Analysis using Public API
+📌 Overview
 
-## 📌 Overview
-This project demonstrates end-to-end data ingestion, transformation, and exploratory analysis using a public weather API.  
-The goal is to showcase practical experience in working with APIs, handling JSON responses, performing data transformations, and building time-series visualizations using Python.
+This project demonstrates how to fetch real-time weather data from a public API, process it using Python, and visualize temperature trends. The goal is to showcase practical skills in API integration, data handling, and basic visualization.
 
-This project is intended as a hands-on demonstration of data analysis workflows commonly used in real-world analytics environments.
+🎯 Problem Statement
 
----
+Many applications rely on real-time data from external APIs. This project shows how to:
 
-## 🎯 Objective
-- Retrieve live hourly weather data from a public API  
-- Transform JSON response into structured tabular format  
-- Clean and standardize datetime fields  
-- Perform basic exploratory analysis  
-- Visualize temperature trends over time  
+Connect to a public REST API
 
----
+Retrieve JSON data
 
-## 🌐 Data Source
-Open-Meteo Public Weather API (No API key required)
+Convert it into a structured format
 
----
+Perform basic analysis and visualization
 
-## 🛠 Tools & Technologies
-- Python  
-- Pandas  
-- Requests  
-- Matplotlib  
-- Google Colab / Jupyter Notebook  
+🛠️ Tech Stack
 
----
+Python
 
-## 🔄 Workflow
-1. Send HTTP request to public weather API  
-2. Receive response in JSON format  
-3. Extract required fields (time, temperature)  
-4. Convert JSON data to Pandas DataFrame  
-5. Convert time column to datetime format  
-6. Perform exploratory analysis (min, max, average temperature)  
-7. Build time-series visualization  
-8. Export cleaned dataset to CSV  
+Pandas
 
----
+Requests
 
-## 📁 Repository Structure
-- `weather_api_analysis.ipynb` → Analysis notebook  
-- `weather_data.csv` → Cleaned dataset  
-- `README.md` → Documentation  
+Matplotlib
 
----
+Jupyter Notebook
 
-## 📊 Key Analysis Performed
-- Average temperature calculation  
-- Minimum and maximum temperature identification  
-- Hourly temperature trend analysis  
+⚙️ Features
 
----
+Fetches hourly temperature data from a weather API
 
-## 📈 Visualization
-Line chart showing hourly temperature variations over time.
+Parses JSON response into Pandas DataFrame
 
----
+Converts timestamps to datetime format
 
-## 🔍 Key Insights
-- Temperature shows continuous fluctuation across hourly intervals  
-- Clear time-based trend observable in temperature movement  
-- Dataset is suitable for further aggregation such as daily averages or multi-day comparisons  
+Visualizes temperature trends over time
 
----
+▶️ How to Run
 
-## ✅ Skills Demonstrated
-- API data ingestion  
-- JSON parsing  
-- Data cleaning & transformation  
-- Time-series handling  
-- Exploratory data analysis  
-- Data visualization  
+Clone the repository
 
----
+git clone https://github.com/Harithachowdary24/api.git
 
-## 🚀 Future Enhancements
-- Add humidity, wind speed, and precipitation fields  
-- Aggregate hourly data into daily metrics  
-- Build interactive dashboard using Power BI or Tableau  
-- Automate data refresh  
 
----
+Navigate to project folder
 
-## 📬 Contact
-Haritha  
-GitHub: <your-github-link>  
-LinkedIn: <your-linkedin-link>
+cd api
+
+
+Install dependencies
+
+pip install pandas requests matplotlib
+
+
+Open Jupyter Notebook
+
+jupyter notebook
+
+
+Run API.ipynb
+
+📊 Sample Output
+
+Line chart showing hourly temperature trend
+
+Tabular dataset of time vs temperature
+
+(Add screenshot here later)
+
+📁 Project Structure
+api/
+│
+├── API.ipynb
+├── README.md
+
+🚀 Future Enhancements
+
+Add error handling
+
+Support multiple cities
+
+Store data into CSV or database
+
+Add more weather metrics (humidity, wind speed)
+
+👤 Author
+
+Haritha Chowdary
+
+GitHub: https://github.com/Harithachowdary24
+
+LinkedIn: www.linkedin.com/in/haritha-ch-9428a6305
+
+
+
